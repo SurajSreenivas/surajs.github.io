@@ -1,0 +1,28 @@
+body { background-image: url(snack.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+}
+p {color: black;
+   font-size: large;}
+h1 {color: white;
+	background-color: black;
+      text-align:center;
+      border: 5px solid blue}
+ul { color: black; }
+h4 {color: black;
+    font-size: 30px ;
+     cursor: pointer; }
+ol {color: black;
+    font-size: 25px}
+
+a {font-size: 30px;}
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
